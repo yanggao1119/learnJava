@@ -7,3 +7,8 @@ GENERAL INSTRUCTION
 $ javac -classpath . Echo.java
 
 $ java -classpath . Echo 
+
+running a class under a compiled package:
+
+$ java -cp NewMukoJsonBased-1.0-SNAPSHOT.jar com.themuko.App
+Hello World!
